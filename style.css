@@ -70,6 +70,7 @@ input[type="email"] {
 }
 
 input[type="email"]::placeholder {
+    padding-left: 50px;
     width: 100%;
     color: #C2C3CB;
     font-size: 16.676px;
