@@ -5,6 +5,11 @@
     overflow: hidden;
 }
 
+body {
+    display: flex;
+    background-color: #FFFFFF;
+}
+
 .main-screen {
     z-index: 20;
     display: flex;
@@ -19,9 +24,22 @@
 }
 
 .logo {
-    cursor: pointer;
+    all: none;
+    all: unset;
+}
+
+.logo {
     z-index: 3333;
-    margin: 32px 48px;
+    margin-top: 32px;
+    cursor: pointer;
+    margin-left: 46px;
+}
+
+.logo-div {
+    display: absolute;
+    width: 53px;
+    height: 48.816px;
+    flex-shrink: 0;
 }
 
 .forget-title {
@@ -233,8 +251,6 @@ input[type="email"]:focus {
 .spotlight p {
     color: var(--others-white, #FFF);
     text-align: center;
-
-    /* body/medium/medium */
     font-size: 14px;
     font-family: Manrope;
     font-style: normal;
