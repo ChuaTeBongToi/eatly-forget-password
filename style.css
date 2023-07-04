@@ -19,6 +19,7 @@
 }
 
 .logo {
+    cursor: pointer;
     z-index: 3333;
     margin: 32px 48px;
 }
@@ -177,9 +178,17 @@ input[type="email"]:focus {
     margin-bottom: 20px;
 }
 
+.spotlight p {
+    max-width: 500px;
+}
+
 .spotlight {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.elip {
+    margin-top: 15px;
 }
 
 .pic1 {
