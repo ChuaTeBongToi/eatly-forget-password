@@ -45,6 +45,8 @@
 }
 
 input[type="email"] {
+    width: 100%;
+    max-width: 500px;
     text-indent: 20%;
     margin-top: 80px;
     width: 382.441px;
@@ -67,6 +69,7 @@ input[type="email"] {
 }
 
 input[type="email"]::placeholder {
+    width: 100%;
     color: #C2C3CB;
     font-size: 16.676px;
     font-family: Poppins;
