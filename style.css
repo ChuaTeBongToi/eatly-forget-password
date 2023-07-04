@@ -45,6 +45,7 @@
 }
 
 input[type="email"] {
+    padding-left: 20px;
     width: 100%;
     max-width: 500px;
     text-indent: 20%;
@@ -87,6 +88,7 @@ input[type="email"] {
 }
 
 input[type="email"]:focus {
+    padding-left: 20px;
     border-radius: 14.275px;
     border: 2.223px solid #6C5FBC;
     background-image: url(Email.png);
