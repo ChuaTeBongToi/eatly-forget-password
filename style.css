@@ -233,12 +233,15 @@ input[type="email"]:focus {
 .spotlight p {
     color: var(--others-white, #FFF);
     text-align: center;
+
+    /* body/medium/medium */
     font-size: 14px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.2px;
+    opacity: 0.699999988079071;
 }
 
 /*Responsive*/
